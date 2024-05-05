@@ -8,9 +8,9 @@ Preliminary processing has been carried out:
 3. Long news articles have been divided into lines so that mean(len) = 102.45 and std(len) = 56.72. 4. Rows with languages other than Kyrgyz have been excluded.
 
 Misspelled (trash) text was created using various approaches: 
-• 1 million trash lines were generated using a probabilistic noiser. The probabilistic noiser was trained based on a "golden dataset" with real errors, which is not public. 
-• 500 thousand trash lines were generated using a different probabilistic [noiser](https://github.com/ai-forever/sage.git). 
-• The remaining trash lines were created using a random noiser, which, for words longer than 5 letters, has a 20% probability of deleting a letter/swapping a letter/replacing a letter with another letter/inserting any letter.
+ * 1 million trash lines were generated using a probabilistic noiser. The probabilistic noiser was trained based on a "golden dataset" with real errors, which is not public. 
+ * 500 thousand trash lines were generated using a different probabilistic [noiser](https://github.com/ai-forever/sage.git). 
+ * The remaining trash lines were created using a random noiser, which, for words longer than 5 letters, has a 20% probability of deleting a letter/swapping a letter/replacing a letter with another letter/inserting any letter.
 
 Punctuation errors (punc_trash) text was created using a random noiser, which has a 20% probability of deleting/inserting a comma and replacing the period at the end of the sentence with another punctuation mark, such as "!" or "?".
 
