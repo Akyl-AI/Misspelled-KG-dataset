@@ -14,7 +14,9 @@ Misspelled (trash) text was created using various approaches:
 
 Punctuation errors (punc_trash) text was created using a random noiser, which has a 20% probability of deleting/inserting a comma and replacing the period at the end of the sentence with another punctuation mark, such as "!" or "?".
 
-Train and test datasets were created by train_test_split with a train size of 2 million: • Train size = 2000000 • Test size = 66223
+Train and test datasets were created by train_test_split with a train size of 2 million: 
+ * Train size = 2000000
+ * Test size = 66223
 
 # Dataset
 Misspelled-KG-dataset can be downloaded from [here](https://huggingface.co/datasets/the-cramer-project/Misspelled-KG-dataset).
