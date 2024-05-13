@@ -29,3 +29,4 @@ We work on creation Kyrgyz Spell checker and grammar corrector. Please feel free
 
 # License
 Dataset is licensed under a [Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/)
+
